@@ -19,7 +19,12 @@
         <p>
             Click
             <a href="http://www.rebeccahusk.com">HERE</a>
-            to go to my real website
+            to go to my portfolio
+            </p>
+          <p>
+            Click
+            <a href="https://www.youtube.com/watch?v=WVz8rvIl_vY&t=15s">THIS ONE</a>
+            to go to a cute video
             </p>
     </div>
 
