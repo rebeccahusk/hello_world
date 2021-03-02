@@ -13,7 +13,6 @@
   </head>
   <body>
     <div class="container">
-        <h1 style=color:green>Hello, world!</h1>
         <h2> I am trying my best to make this work! </h2>
         <p>this is very hard!</p>
         <p>
