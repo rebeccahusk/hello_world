@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
+    <title>Using OCHRE</title>
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</head>
+<body onload="loadXML()" style="background-color: #D3D3D3;">
+    <nav class="navbar navbar-expand-md navbar-dark bg-gradient">
+        <a class="navbar-brand" style="color: darkolivegreen" href="#">Rebecca's Site!</a>
+    </nav>
+    <!-- table -->
+    <div class="container" style="text-align: center; color: darkolivegreen;">
+      <h3>Ideally, you would click below for images</h3>
+      <h4>But, currently, there is nothing to click!</h4>
+      <p> (we are working on this)</p>
+    </div>
+    <div class="container mt-3">
+        <div id="title"></div>
+
+        <div class="container">
+            <h4 id="setTitle"></h4>
+            <table class="table table-striped order-table" id="ochreTable" style="background-color:maroon;">
+                <thead class="thread-dark" id="ochreTableColumns">
+                    <tr>
+                        <th style="text-align: center; width: 30%; color: white;">Name</th>
+                        <th style="text-align: center; width: 30%; color: white;">Description</th>
+                    </tr>
+                </thead>
+                <tbody id="ochreTableBody">
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="image display" class="container" onclick="showImage()" style="color:darkolivegreen;"></div>
+    <script src="js/loadTextList.js"></script>
+</body>
+</html>
