@@ -61,17 +61,45 @@
   <div class="container">
     <h1>Hello, world!</h1>
     <h3 class="d-none d-md-block" style="color: darkolivegreen"> Here is my DIGS html page!</h3>
-    <p class="d-none d-md-block" style="color: darkolivegreen"> (And here I am in my happy place)</p>
-    <img src="images/me.jpg"width="200" height="260">    
+    <br>
     <h3 class="d-none d-md-block"> Hope you enjoy my cool functions below:</h3>
   </div>
-  
   <!-- buttons -->
   <div class="container mt-5">
-    <button type="button" class="btn btn-primary" onclick="evalNumber()">Odd or Even</button>
-    <button type="button" class="btn btn-primary" onclick="minOfDay()">What time is it?</button>
-    <button type="button" class="btn btn-primary" onclick="parentFunction()" >Parent Function?</button>
+    <button type="button" class="btn btn-primary" onclick="minOfDay()" style="background-color: lightseagreen; color: white;">What time is it?</button>
   </div>
 </body>
+<div class="container mt-5">
+  <h2>
+    Here's some fun pictures of me:
+  </h2>
+  <div class="row">
+    <div class="col-md display-6" style="color: darkolivegreen">Here I am at work</div>
+    <div class="col-md display-6" style="color: darkolivegreen">Chicago snow!</div>
+    <div class="col-md display-6" style="color: darkolivegreen">On vacation</div>
+  </div>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md display-md py-3">
+  <img src="images/work.JPG" class="img-fluid img-thumbnail">
+    </div>
+    <div class="col-md display-md py-3">
+  <img src="images/snow.jpg" class="img-fluid img-thumbnail">
+    </div>
+    <div class="col-md display-md py-3">
+  <img id="vanishingPic" src="images/me.jpg" class="img-fluid img-thumbnail">
+    </div>
+</div>
+</div>
+<div class="container mt-5">
+  <h2 id="table title">I love having fun!</h2>
+</div>
+<!-- buttons -->
+<div class="container mt-5">
+  <button type="button" class="btn btn-block" onclick="changeTitle()" style="background-color: lightseagreen; color: white;">No time for fun</button>
+  <button type="button" class="btn btn-block" onclick="disappear()" style="background-color: lightseagreen; color: white;">Get back to work!</button>
+  <button type="button" class="btn btn-block" onclick="niceWork()" style="background-color: lightseagreen; color: white;">Nice work!</button>
+</div>
 
 </html>

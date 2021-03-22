@@ -16,25 +16,19 @@ function minOfDay() {
     alert("Current Minute of the Day: " + currentMinute);
     alert("(You didn't think it would be as simple as the time, did you?)");
 }
+
 function disappear() {
-    var dropdown = document.getElementById('dog1')
+    var dropdown = document.getElementById('vanishingPic')
     dropdown.style.display = "none";
 }
 function changeTitle() {
     let selectedElement = document.getElementById("table title");
     console.log(selectedElement);
-    selectedElement.innerText = "POOPING Schedule";
+    selectedElement.innerText = "I love to work!";
 }
-function parentFunction() {
-    let a = 1;
-    function childFunction() {
-        var b = a + 2;
-        return b;
-    };
-    return childFunction();
-}
-function meow() {
-    alert("Meooow");
+
+function niceWork() {
+    alert("Thanks! I'm trying my best!");
 }
 function parseArray(array) {
     var makeList = prompt("");
