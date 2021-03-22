@@ -34,7 +34,7 @@ function realTime() {
 function min() {
     var currentMinute = new Date().getHours() * 60 + new Date().getMinutes();
     alert("Current Minute of the Day: " + currentMinute);
-    alert("Got you - it's a tricky clock!");
+    alert("Got you - it's a tricky clock! Minutes only.");
 }
 
 function disappear() {
