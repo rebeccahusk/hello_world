@@ -3,35 +3,18 @@ function pets() {
     alert("Really? " + inputValue + "??");
     var currentHour = new Date().getHours();
     if (currentHour < 10) {
-        alert(inputValue + " hopes you have a good morning!");
+        alert("What a morning to choose " + inputValue + "!");
     } else if (currentHour < 18) {
-        alert(inputValue + " hopes you have a good evening!");
+        alert("What an evening to choose " + inputValue + "!");
     } else {
-        alert(inputValue + " hopes you have a good night!");
+        alert("What a night to choose " + inputValue + "!");
     }
 }
 
-function evalNumber() {
-    var inputValue = prompt("Enter any five-digit number without commas")
-    if (isNaN(inputValue)) { //if the input value is not a number,
-        alert(inputValue + " is not a number.");
-    } else if (inputValue.length != 5) { //if the length of the number is not 5,
-        alert(inputValue + " is not a five-character entity.");
-    } else if (inputValue % 2 == 0) {
-        alert(inputValue + " is an even number.");
-    } else {
-        alert(inputValue + " is an odd number.")
-    }
-}
-/*  } else if (Number.isInteger(inputValue) == false){
-     //alert(inputValue + " is not an integer."); */
-/*  } else if (inputValue.length > 6 || inputValue.length < 5){
-       alert(inputValue + " is not a five or six-digit number.");
-   } else if (inputValue.length == 6 && inputValue > 0){
-       alert(inputValue + " is not a five-digit number."); */
 function minOfDay() {
     var currentMinute = new Date().getHours() * 60 + new Date().getMinutes();
     alert("Current Minute of the Day: " + currentMinute);
+    alert("(You didn't think it would be as simple as the time, did you?)");
 }
 function disappear() {
     var dropdown = document.getElementById('dog1')
@@ -54,8 +37,8 @@ function meow() {
     alert("Meooow");
 }
 function parseArray(array) {
-    var newHair = prompt("enter a hairstyle");
-    array.push(newHair);
+    var makeList = prompt("");
+    array.push(makeList);
     var x = array.sort();
     var y = x.length;
     console.log(x[y-1]);
